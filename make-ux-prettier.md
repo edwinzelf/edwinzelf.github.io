@@ -1,5 +1,5 @@
 ## Add basics from apt
-```
+```bash
 sudo apt get wget curl git zsh -y
 ```
 
@@ -31,28 +31,28 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 #### zsh-autosuggestions
 
-```
+```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # plugins=(... zsh-autosuggestions)
 ```
 
 #### zsh-syntax-highlighting
 
-```
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # plugins=( [plugins...] zsh-syntax-highlighting)
 ```
 
 #### exa-zsh
 
-```
+```bash
 git clone https://github.com/RitchieS/zsh-exa.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-exa
 # plugins=(... zsh-exa)
 ```
 
 #### powerlevel10k
 
-```
+```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
